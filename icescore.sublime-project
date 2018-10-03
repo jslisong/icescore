@@ -12,8 +12,12 @@
     [
         {
             "path": ".",
-            "file_exclude_patterns": ["*.~ml", "*.xlsx", "*.mdj", "*.sql"],
-            "folder_exclude_patterns": ["build", "dist", "__pycache__"],
+            "file_exclude_patterns": [
+                "*.sqlite3", "*.sql",
+                "*.~ml", "*.xlsx", "*.mdj"
+            ],
+            "folder_exclude_patterns": [
+                "build", "dist", "__pycache__"],
         }
     ]
 }
